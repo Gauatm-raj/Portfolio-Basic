@@ -1,0 +1,142 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 3rem 8rem;
+    
+}
+.about-title{
+    position: relative;
+    margin-top: 1rem;
+}
+.about-title h1{
+    padding: 0rem 1.5rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.about-title img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.about-section{
+    display: flex;
+    gap:3rem;
+    align-items: center;
+}
+.profile-pic1{
+    height: 380px;
+    width: 400px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-top: 2rem;
+    box-shadow: var(--shadow);
+}
+.about-right{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    
+}
+.about-para{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.about-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.about-skill{
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    transition: 0.3s;
+}
+.about-skill p{
+    min-width: 150px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.about-skill hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 0.4rem;
+    border-radius: 2rem;
+    background: var(--bg);
+}
+.achivements{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.achivement{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    transition: 0.5s;
+}
+.achivement h1{
+    font-size: 2.2rem;
+    font-weight: 700;
+    background: var(--bg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.achivement p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.about-skill:hover{
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+.achivement:hover{
+    transition: 0.3s;
+    transform: scale(1.12);
+}
+@media (max-width:786px) {
+    .about{
+        gap: 4rem;
+        margin: 2.5rem 3,5rem;
+        align-items: start;
+    }
+    .about-section{
+        flex-direction: column;
+    }
+    .profile-pic1{
+       display: none;
+    }
+    .about-para{
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+    .about-skill{
+        gap: 1rem;
+        align-items: center;
+    }
+    .about-skill p{
+        font-size: 1rem;
+    }
+    .about-skill hr{
+        height: 6px;
+    }
+    .achivements{
+        flex-direction: column;
+       
+        gap: 2rem;
+    }
+    .achivement h1{
+        text-align: center;
+    }
+}

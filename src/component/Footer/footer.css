@@ -1,0 +1,86 @@
+.footer{
+    margin: 2.5rem 7.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top-left h1{
+    background: linear-gradient(140deg,#DA7C25 0.36%,#B923E1 50.06%) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-top-left p{
+    font-size: 1rem;
+    max-width: 400px;
+}
+.footer-top-right{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.footer-email-input{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 2.5rem;
+    background: #32323B;
+    padding-right: 4rem;
+}
+.footer-email-input input{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #a0a0a0;
+    font-family: "Outfit";
+    font-size: 0.8rem;
+}
+.footer-email-input:hover{
+    border: 2px solid white;
+}
+.footer-subscribe{
+    padding: 1rem 2.5rem;
+    border-radius: 2.5rem;
+    background: var(--bg);
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer-subscribe:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+.footer-bottom-right{
+    display: flex;
+    gap: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+@media (max-width:786px) 
+{
+  .footer{
+    margin: 2.5rem 3.5rem;
+  }    
+  .footer-top{
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .footer-bottom{
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+  .footer-bottom-left{
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
