@@ -26,7 +26,7 @@ const Navbar = () => {
             <li><AnchorLink className="anchor-link" offset={50} href="#home">Portfolio</AnchorLink></li>
             <li><AnchorLink className="anchor-link" offset={50} href="#contact">Contact</AnchorLink></li>
         </ul>
-        <div className="nav-connect"><AnchorLink className="anchor-link" offset={50} href="#contact">Connect With Me</AnchorLink></div>
+        <div className="nav-connect"><a className="anchor-link" href="https://github.com/Gauatm-raj">GitHub</a></div>
     </div>
   )
 }
