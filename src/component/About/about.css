@@ -122,14 +122,15 @@
         line-height: 1.5rem;
     }
     .about-skill{
-        gap: 1rem;
-        align-items: center;
+        display: flex;
+        gap: 0rem;
+        align-items: start;
     }
     .about-skill p{
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
     .about-skill hr{
-        height: 6px;
+        height: 8px;
     }
     .achivements{
         flex-direction: column;

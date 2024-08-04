@@ -48,7 +48,11 @@
     font-size: 1.3rem;
     cursor: pointer;
    
-}
+}   
+.hero-connect a{
+    text-decoration: none;
+    color: white;
+  }
 .hero-connect:hover{
     border:2px solid white
 }
@@ -63,6 +67,7 @@
     text-decoration: none;
   color: white;
 }
+
 .hero-resume:hover{
     border: 2px solid rgba(113, 0, 128, 0.916);
 }

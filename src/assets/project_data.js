@@ -54,6 +54,14 @@ const project_data=[
             {description:"We are dedicated to crafting a user interface reminiscent of Google Sheets, striving to offer features such as text formatting like Bold, Italic, and Underline"},
             {description:"Additionally, functionalities including Cut, Copy, and Paste are available, along with the ability to align text to the right, left, and center"}
         ],
+    },{
+        s_no:"6",
+        name:"TODO LIST",
+        tech:"HTML, CSS, JAVASCRIPT, REACT", 
+        desc:[
+            {description:"Simple Todo list web app"},
+            {description:"Function Add, Save, Edit, Delete"}
+        ],
     }
 ]
 export default project_data

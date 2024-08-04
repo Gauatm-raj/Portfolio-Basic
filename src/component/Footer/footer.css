@@ -74,6 +74,10 @@
     flex-direction: column;
     gap: 2.5rem;
   }
+  .footer-top-right{
+    display: flex;
+    flex-direction: column;
+  }
   .footer-bottom{
     display: flex;
     flex-direction: column-reverse;
